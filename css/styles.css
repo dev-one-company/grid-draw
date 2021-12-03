@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: black;
+  font-family: monospace;
+  overflow: hidden !important;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  flex: 1;
+  cursor: none;
+}
+
+.row {
+  display: flex;
+}
+
